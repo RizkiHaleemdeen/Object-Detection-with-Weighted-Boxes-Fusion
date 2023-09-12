@@ -1,5 +1,5 @@
 # Object-Detection-with-Weighted-Boxes-Fusion
-## ASSESMENT
+
 ### 1. Ensemble Model Creation:
 Pretrained Models: Downloaded pretrained YOLO and Faster R-CNN models from  model zoo.
 Model Ensemble: Developed a Python script to create an ensemble model. Used the ensemble_boxes library in Python to fuse the results from YOLO and Faster R-CNN.

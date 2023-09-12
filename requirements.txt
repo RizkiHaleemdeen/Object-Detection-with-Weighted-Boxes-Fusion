@@ -1,0 +1,12 @@
+numpy==1.23.1
+gluoncv==0.10.5.post0
+mxnet==1.9.1
+torch==1.9.0
+matplotlib
+ensemble_boxes
+os
+PIL
+streamlit
+skimage
+math
+tempfile

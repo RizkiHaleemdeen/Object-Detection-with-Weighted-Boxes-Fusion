@@ -1,5 +1,5 @@
 # Object-Detection-with-Weighted-Boxes-Fusion
-ASSESMENT
+## ASSESMENT
 ### 1. Ensemble Model Creation:
 Pretrained Models: Downloaded pretrained YOLO and Faster R-CNN models from  model zoo.
 Model Ensemble: Developed a Python script to create an ensemble model. Used the ensemble_boxes library in Python to fuse the results from YOLO and Faster R-CNN.
@@ -20,8 +20,8 @@ Created the GitHub repository to host your code, Dockerfiles, model weights, and
 01. Clone this repository 
 02. To Run the simple web interface built through streamlit on your local server run the following command on your terminal
 
-  ''' pip install -r requirements.txt
-  streamlit run app.py '''
+  ``` pip install -r requirements.txt
+      streamlit run app.py ```
   
  Notes:
  

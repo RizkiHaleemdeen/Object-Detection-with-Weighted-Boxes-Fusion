@@ -32,6 +32,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ## Run Using Docker
+Currently facing some issues with building the docker image in my laptop
+```
+docker run <image_name>
+```
 
 Notes:
  

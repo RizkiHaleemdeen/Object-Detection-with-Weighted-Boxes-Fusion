@@ -9,18 +9,19 @@ Dockerfile: Created a Dockerfile for the ensemble model. Specified the necessary
 Code: Copied the ensemble model script and any associated configuration files into the Docker image.
 Build and Push: Built the Docker image using the Dockerfile.
 ### 3. Web Interface:
-Web Application: Develop a web application using Streamlit.
+Web Application: Developed a web application using Streamlit.
 Model Loading: Loaded the ensemble model within the web application and made it available for inference
 ### 4. Generating Masks:
 Inside Bounding Boxes: Implemented code to generate masks within the bounding boxes for predicted objects by using Faster R-CNN
 ### 5. GitHub Repository:
 Created the GitHub repository to host your code, Dockerfiles, model weights, and any documentation.
 
-## How to Run
+## How to Run Using terminal
 01. Clone this repository 
 02. To Run the simple web interface built through streamlit on your local server run the following command on your terminal
-  
-  streamlit run app.py
+
+  ''' pip install -r requirements.txt
+  streamlit run app.py '''
   
  Notes:
  
